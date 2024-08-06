@@ -32,6 +32,7 @@ main {
   max-width: 30%;
   height: auto;
   margin-bottom: 10px;
+  cursor: pointer;
 }
 .map {
   position: relative;
