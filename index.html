@@ -20,9 +20,17 @@
         </section>
         <section class="photos">
           <h2>Vores bier og honning</h2>
-          <img src="assets/IMG_01.JPG" alt="Opstablingsstader" />
-          <img src="assets/IMG_02.JPG" alt="Honning i ramme" />
-          <img src="assets/IMG_03.JPG" alt="Biavlere" />
+          <img
+            src="assets/IMG_01.JPG"
+            alt="Opstablingsstader"
+            class="clickable"
+          />
+          <img
+            src="assets/IMG_02.JPG"
+            alt="Honning i ramme"
+            class="clickable"
+          />
+          <img src="assets/IMG_03.JPG" alt="Biavlere" class="clickable" />
         </section>
         <section class="map">
           <h2>Her står bierne:</h2>
@@ -35,5 +43,13 @@
       </div>
     </main>
     <footer>&copy; 2024 Jonathan og Alexanders biavl</footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+      <span class="close">&times;</span>
+      <img class="lightbox-content" id="lightbox-img" />
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
